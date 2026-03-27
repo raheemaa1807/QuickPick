@@ -107,7 +107,7 @@ img {
   width: 100%;
 
   background: var(--pure-white);
-  z-index: 1000;
+  z-index: 50;
 
   transition: 0.3s ease;
 }
