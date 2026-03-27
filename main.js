@@ -157,7 +157,7 @@ initApp();
 
 const showToast = (msg) => {
   const toast = document.createElement("div");
-  toast.textContent = msg;
+  toast.innerHTML = msg;
 
   toast.style.position = "fixed";
   toast.style.bottom = "20px";
